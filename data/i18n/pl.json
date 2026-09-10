@@ -1,0 +1,71 @@
+{
+  "meta": { "title": "Meridian Immigration Law | Chicago", "desc": "Prawnicy imigracyjni w Chicago. Wnioski rodzinne, wizy pracownicze, azyl, obywatelstwo i obrona przed deportacją. Pierwsza konsultacja bezpłatna w pięciu językach." },
+  "nav": { "services": "Czym się zajmujemy", "how": "Jak to działa", "about": "O nas", "intake": "Rozpocznij sprawę", "contact": "Kontakt", "langLabel": "Język" },
+  "hero": {
+    "eyebrow": "Prawo imigracyjne · Chicago",
+    "h1": "Twoja sprawa wyjaśniona w Twoim języku.",
+    "lede": "Prowadzimy wnioski rodzinne, wizy pracownicze, sprawy o azyl, obywatelstwo i obronę przed deportacją. Pierwsza konsultacja jest bezpłatna, a my uczciwie powiemy, czy masz sprawę, zanim cokolwiek zapłacisz.",
+    "cta1": "Rozpocznij sprawę",
+    "cta2": "Zadzwoń do nas"
+  },
+  "trust": {
+    "title": "Na co możesz liczyć",
+    "items": [
+      { "h": "Pięć języków, na miejscu", "p": "Rozmawiasz z kimś w swoim języku, nie przez członka rodziny i nie przez aplikację." },
+      { "h": "Najpierw szczera odpowiedź", "p": "Jeśli Twoja sprawa jest słaba, powiemy to na bezpłatnej konsultacji. Wolimy stracić honorarium niż wziąć pieniądze za nic." },
+      { "h": "Stała cena, podana z góry", "p": "Znasz koszt przed podpisaniem. Żadnych niespodzianek godzinowych i żadnych opłat za rozmowę telefoniczną." },
+      { "h": "Zawsze poufnie", "p": "To, co nam powiesz, zostaje u nas, niezależnie od Twojego statusu. Nie przekazujemy informacji nikomu." }
+    ]
+  },
+  "services": {
+    "eyebrow": "Czym się zajmujemy",
+    "title": "Pięć obszarów, zrobionych porządnie",
+    "lede": "Jesteśmy małą kancelarią i odmawiamy spraw spoza tych obszarów, bo zrobienie jednej rzeczy dobrze jest dla Ciebie warte więcej niż zrobienie wszystkiego przeciętnie.",
+    "items": [
+      { "h": "Wnioski rodzinne", "p": "Wnioski o małżonka, rodziców, dzieci i rodzeństwo, zmiana statusu oraz procedura konsularna." },
+      { "h": "Wizy pracownicze", "p": "H-1B, L-1, O-1 i TN, a także sponsorowanie przez pracodawcę i certyfikacja zatrudnienia." },
+      { "h": "Azyl", "p": "Azyl afirmatywny i obronny, wstrzymanie wydalenia oraz wnioski na podstawie Konwencji przeciwko torturom." },
+      { "h": "Obywatelstwo", "p": "Naturalizacja, egzamin obywatelski oraz zaświadczenia o obywatelstwie dla dzieci." },
+      { "h": "Obrona przed deportacją", "p": "Reprezentacja w sądzie imigracyjnym, sprawy o kaucję, anulowanie wydalenia i apelacje." }
+    ]
+  },
+  "how": {
+    "eyebrow": "Jak to działa",
+    "title": "Trzy kroki, bez niespodzianek",
+    "steps": [
+      { "n": "Jeden", "h": "Bezpłatna konsultacja", "p": "Trzydzieści minut, w Twoim języku, osobiście lub telefonicznie. Przynieś dokumenty, które masz. Wyjdziesz wiedząc, czy masz sprawę." },
+      { "n": "Dwa", "h": "Wycena na piśmie", "p": "Jeśli przyjmiemy sprawę, otrzymasz stałą cenę na piśmie, z dokładnym zakresem, zanim cokolwiek zapłacisz." },
+      { "n": "Trzy", "h": "Składamy i prowadzimy dalej", "p": "Przygotowujemy wniosek, śledzimy go i informujemy, gdy coś się zmieni. Zawsze możesz skontaktować się z osobą prowadzącą Twoją sprawę." }
+    ]
+  },
+  "intake": {
+    "eyebrow": "Rozpocznij sprawę",
+    "title": "Napisz, czego potrzebujesz",
+    "lede": "To trafia wyłącznie do naszego biura. Nic, co tu napiszesz, nie tworzy relacji prawnik-klient i nic tutaj nie jest poradą prawną.",
+    "name": "Imię i nazwisko",
+    "email": "E-mail",
+    "phone": "Telefon",
+    "lang": "Preferowany język",
+    "type": "W czym potrzebujesz pomocy?",
+    "types": ["Wniosek rodzinny", "Wiza pracownicza", "Azyl", "Obywatelstwo", "Obrona przed deportacją", "Nie jestem pewien"],
+    "country": "Kraj pochodzenia",
+    "urgency": "Czy masz termin sądowy lub inny termin?",
+    "urgencies": ["Nie znam żadnego terminu", "W ciągu 3 miesięcy", "W ciągu 30 dni", "W ciągu tygodnia"],
+    "message": "Co jeszcze powinniśmy wiedzieć?",
+    "submit": "Wyślij do biura",
+    "note": "Formularz demonstracyjny. W wersji produkcyjnej trafia do systemu kancelarii przez szyfrowane połączenie. Z tej strony nic nie jest wysyłane.",
+    "ok": "Dziękujemy. W wersji produkcyjnej trafiłoby to do biura i ktoś zadzwoniłby w ciągu jednego dnia roboczego.",
+    "errName": "Proszę wpisać imię i nazwisko.",
+    "errEmail": "Proszę podać e-mail, pod którym możemy się skontaktować."
+  },
+  "about": {
+    "eyebrow": "O nas",
+    "title": "Mała kancelaria z wyboru",
+    "p1": "Meridian to cztery osoby. To celowe: osoba, która przyjmuje Twoją konsultację, prowadzi Twoją sprawę, i nigdy nie trafiasz do kogoś, kto musi czytać akta od zera.",
+    "p2": "Razem mówimy po angielsku, hiszpańsku, polsku, mandaryńsku i arabsku. Większość naszych klientów przychodzi od kogoś, komu już pomogliśmy."
+  },
+  "contact": { "eyebrow": "Kontakt", "title": "Przyjdź porozmawiać", "office": "Biuro", "reach": "Kontakt", "hours": "Godziny", "hoursVal": "Poniedziałek do piątku, 9:00 do 18:00. Sobota po umówieniu." },
+  "disclaimer": "Ta strona ma charakter wyłącznie informacyjny i nie stanowi porady prawnej. Korzystanie z niej ani wysłanie wiadomości nie tworzy relacji prawnik-klient. Prawo imigracyjne często się zmienia, a wynik zależy od okoliczności Twojej sprawy.",
+  "transNote": "Ta strona została przetłumaczona z pomocą maszynową i czeka na weryfikację przez native speakera. Jeśli coś brzmi źle, daj nam znać, a poprawimy.",
+  "skip": "Przejdź do treści"
+}

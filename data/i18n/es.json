@@ -1,0 +1,71 @@
+{
+  "meta": { "title": "Meridian Immigration Law | Chicago", "desc": "Abogados de inmigración en Chicago. Peticiones familiares, visas de trabajo, asilo, ciudadanía y defensa contra la deportación. Primera consulta gratis en cinco idiomas." },
+  "nav": { "services": "Qué hacemos", "how": "Cómo funciona", "about": "Nosotros", "intake": "Comience su caso", "contact": "Contacto", "langLabel": "Idioma" },
+  "hero": {
+    "eyebrow": "Ley de inmigración · Chicago",
+    "h1": "Su caso explicado en su propio idioma.",
+    "lede": "Manejamos peticiones familiares, visas de trabajo, asilo, ciudadanía y defensa contra la deportación. La primera consulta es gratis, y le diremos con honestidad si tiene un caso antes de que pague nada.",
+    "cta1": "Comience su caso",
+    "cta2": "Llámenos"
+  },
+  "trust": {
+    "title": "Con qué puede contar",
+    "items": [
+      { "h": "Cinco idiomas, en la sala", "p": "Usted habla con alguien en su idioma, no a través de un familiar ni de una aplicación." },
+      { "h": "Una respuesta directa primero", "p": "Si su caso es débil, se lo decimos en la consulta gratuita. Preferimos perder el honorario que cobrarle por nada." },
+      { "h": "Precio fijo, dicho por adelantado", "p": "Usted sabe el costo antes de firmar. Sin sorpresas por hora y sin cobro por una llamada." },
+      { "h": "Confidencial, siempre", "p": "Lo que nos cuenta se queda con nosotros, sea cual sea su estatus. No compartimos información con nadie." }
+    ]
+  },
+  "services": {
+    "eyebrow": "Qué hacemos",
+    "title": "Cinco áreas, hechas bien",
+    "lede": "Somos una firma pequeña y decimos que no al trabajo fuera de estas áreas, porque hacer una cosa bien vale más para usted que hacer todo de forma aceptable.",
+    "items": [
+      { "h": "Peticiones familiares", "p": "Peticiones de cónyuge, padres, hijos y hermanos, ajuste de estatus y trámite consular." },
+      { "h": "Visas de trabajo", "p": "H-1B, L-1, O-1 y TN, además de patrocinio del empleador y certificación laboral." },
+      { "h": "Asilo", "p": "Asilo afirmativo y defensivo, suspensión de remoción y solicitudes bajo la Convención contra la Tortura." },
+      { "h": "Ciudadanía", "p": "Naturalización, la entrevista cívica y certificados de ciudadanía para menores." },
+      { "h": "Defensa contra la deportación", "p": "Representación en la corte de inmigración, audiencias de fianza, cancelación de remoción y apelaciones." }
+    ]
+  },
+  "how": {
+    "eyebrow": "Cómo funciona",
+    "title": "Tres pasos, sin sorpresas",
+    "steps": [
+      { "n": "Uno", "h": "Consulta gratuita", "p": "Treinta minutos, en su idioma, en persona o por teléfono. Traiga los documentos que tenga. Saldrá sabiendo si tiene un caso." },
+      { "n": "Dos", "h": "Un presupuesto por escrito", "p": "Si aceptamos su caso, recibe un precio fijo por escrito, con exactamente lo que cubre y lo que no, antes de pagar nada." },
+      { "n": "Tres", "h": "Presentamos y damos seguimiento", "p": "Preparamos la solicitud, la seguimos y le avisamos cuando algo cambia. Siempre puede comunicarse con la persona que lleva su caso." }
+    ]
+  },
+  "intake": {
+    "eyebrow": "Comience su caso",
+    "title": "Cuéntenos qué necesita",
+    "lede": "Esto llega solo a nuestra oficina. Nada de lo que escriba aquí crea una relación abogado-cliente, y nada aquí es asesoría legal.",
+    "name": "Su nombre",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "lang": "Idioma que prefiere",
+    "type": "¿En qué necesita ayuda?",
+    "types": ["Petición familiar", "Visa de trabajo", "Asilo", "Ciudadanía", "Defensa contra la deportación", "No estoy seguro"],
+    "country": "País de origen",
+    "urgency": "¿Tiene una fecha de corte o un plazo?",
+    "urgencies": ["Ningún plazo que yo sepa", "Dentro de 3 meses", "Dentro de 30 días", "Dentro de una semana"],
+    "message": "¿Algo más que debamos saber?",
+    "submit": "Enviar a la oficina",
+    "note": "Formulario de demostración. En producción esto se envía al sistema de gestión de casos de la firma por una conexión cifrada. Nada se envía desde esta página.",
+    "ok": "Gracias. En producción esto llegaría a la oficina y alguien le llamaría en un día hábil.",
+    "errName": "Por favor escriba su nombre.",
+    "errEmail": "Por favor escriba un correo donde podamos contactarle."
+  },
+  "about": {
+    "eyebrow": "Nosotros",
+    "title": "Una firma pequeña a propósito",
+    "p1": "Meridian somos cuatro personas. Es a propósito: significa que quien atiende su consulta es quien lleva su expediente, y usted nunca pasa a alguien que tiene que leer su caso desde cero.",
+    "p2": "Entre nosotros hablamos inglés, español, polaco, mandarín y árabe. La mayoría de nuestros clientes llegan por alguien a quien ya ayudamos."
+  },
+  "contact": { "eyebrow": "Contacto", "title": "Venga a hablar con nosotros", "office": "Oficina", "reach": "Contáctenos", "hours": "Horario", "hoursVal": "Lunes a viernes, 9am a 6pm. Sábados con cita." },
+  "disclaimer": "Este sitio web es solo información general y no es asesoría legal. Usar este sitio o enviar un mensaje no crea una relación abogado-cliente. La ley de inmigración cambia con frecuencia y los resultados dependen de los hechos de su caso.",
+  "transNote": "Esta página fue traducida con ayuda automática y está pendiente de revisión por un hablante nativo. Si algo se lee mal, díganos y lo corregimos.",
+  "skip": "Ir al contenido"
+}

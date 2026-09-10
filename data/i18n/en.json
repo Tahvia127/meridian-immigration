@@ -1,0 +1,71 @@
+{
+  "meta": { "title": "Meridian Immigration Law | Chicago", "desc": "Immigration lawyers in Chicago. Family petitions, work visas, asylum, citizenship and removal defense. Free first consultation in five languages." },
+  "nav": { "services": "What we do", "how": "How it works", "about": "About", "intake": "Start your case", "contact": "Contact", "langLabel": "Language" },
+  "hero": {
+    "eyebrow": "Immigration law · Chicago",
+    "h1": "Your case explained in your own language.",
+    "lede": "We handle family petitions, work visas, asylum, citizenship and removal defense. The first consultation is free, and we will tell you honestly whether you have a case before you pay anything.",
+    "cta1": "Start your case",
+    "cta2": "Call us"
+  },
+  "trust": {
+    "title": "What you can count on",
+    "items": [
+      { "h": "Five languages, in the room", "p": "You speak to someone in your language, not through a family member and not through an app." },
+      { "h": "A straight answer first", "p": "If your case is weak, we say so at the free consultation. We would rather lose the fee than take your money for nothing." },
+      { "h": "Flat fees, quoted up front", "p": "You know the cost before you sign. No hourly surprises and no charge for a phone call." },
+      { "h": "Confidential, always", "p": "What you tell us stays with us, whatever your status. We do not share information with anyone." }
+    ]
+  },
+  "services": {
+    "eyebrow": "What we do",
+    "title": "Five areas, done properly",
+    "lede": "We are a small firm and we say no to work outside these areas, because doing one thing well is worth more to you than doing everything adequately.",
+    "items": [
+      { "h": "Family petitions", "p": "Spouse, parent, child and sibling petitions, adjustment of status, and consular processing." },
+      { "h": "Work visas", "p": "H-1B, L-1, O-1 and TN, plus employer sponsorship and labor certification." },
+      { "h": "Asylum", "p": "Affirmative and defensive asylum, withholding of removal, and Convention Against Torture claims." },
+      { "h": "Citizenship", "p": "Naturalization, the civics interview, and certificates of citizenship for children." },
+      { "h": "Removal defense", "p": "Immigration court representation, bond hearings, cancellation of removal, and appeals." }
+    ]
+  },
+  "how": {
+    "eyebrow": "How it works",
+    "title": "Three steps, no surprises",
+    "steps": [
+      { "n": "One", "h": "Free consultation", "p": "Thirty minutes, in your language, in person or by phone. Bring whatever documents you have. You will leave knowing whether you have a case." },
+      { "n": "Two", "h": "A written quote", "p": "If we take your case you get a flat fee in writing, with exactly what it covers and what it does not, before you pay anything." },
+      { "n": "Three", "h": "We file and follow through", "p": "We prepare the filing, we track it, and we tell you when something changes. You can always reach the person handling your case." }
+    ]
+  },
+  "intake": {
+    "eyebrow": "Start your case",
+    "title": "Tell us what you need",
+    "lede": "This goes only to our office. Nothing you write here creates a lawyer-client relationship, and nothing here is legal advice.",
+    "name": "Your name",
+    "email": "Email",
+    "phone": "Phone",
+    "lang": "Language you prefer",
+    "type": "What do you need help with?",
+    "types": ["Family petition", "Work visa", "Asylum", "Citizenship", "Removal defense", "I am not sure"],
+    "country": "Country of origin",
+    "urgency": "Do you have a court date or deadline?",
+    "urgencies": ["No deadline that I know of", "Within 3 months", "Within 30 days", "Within a week"],
+    "message": "Anything else we should know?",
+    "submit": "Send to the office",
+    "note": "Demo form. In production this posts to the firm's case management system over an encrypted connection. Nothing is sent from this page.",
+    "ok": "Thank you. In production this would reach the office and someone would call you within one business day.",
+    "errName": "Please enter your name.",
+    "errEmail": "Please enter an email we can reach you at."
+  },
+  "about": {
+    "eyebrow": "About",
+    "title": "A small firm on purpose",
+    "p1": "Meridian is four people. That is deliberate: it means the person who takes your consultation is the person who handles your file, and you are never handed to someone who has to read your case from scratch.",
+    "p2": "Between us we speak English, Spanish, Polish, Mandarin and Arabic. Most of our clients come from someone we have already helped."
+  },
+  "contact": { "eyebrow": "Contact", "title": "Come and talk to us", "office": "Office", "reach": "Reach us", "hours": "Hours", "hoursVal": "Monday to Friday, 9am to 6pm. Saturday by appointment." },
+  "disclaimer": "This website is for general information only and is not legal advice. Using this site or sending a message does not create a lawyer-client relationship. Immigration law changes often and outcomes depend on the facts of your case.",
+  "transNote": "This page was translated with machine assistance and is awaiting review by a native speaker. If anything reads wrong, tell us and we will fix it.",
+  "skip": "Skip to content"
+}

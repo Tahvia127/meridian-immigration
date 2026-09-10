@@ -1,0 +1,23 @@
+{
+  "firm": "Meridian Immigration Law",
+  "short": "Meridian",
+  "city": "Chicago",
+  "phone": "(555) 555-0182",
+  "email": "hello@meridian-immigration.example",
+  "office": { "line1": "205 W Randolph St, Suite 1120", "line2": "Chicago, IL 60606" },
+  "barNote": "Licensed in Illinois. Bar number shown on request.",
+  "defaultLang": "en",
+  "languages": [
+    { "code": "en", "label": "English",  "dir": "ltr", "file": "index.html" },
+    { "code": "es", "label": "Español",  "dir": "ltr", "file": "es.html" },
+    { "code": "pl", "label": "Polski",   "dir": "ltr", "file": "pl.html" },
+    { "code": "zh", "label": "中文",      "dir": "ltr", "file": "zh.html" },
+    { "code": "ar", "label": "العربية",   "dir": "rtl", "file": "ar.html" }
+  ],
+  "demo": {
+    "show": true,
+    "text": "Demo site. Meridian is a fictional law firm and nothing here is legal advice.",
+    "linkText": "Made by Framework Studio",
+    "url": "https://tahvia127.github.io/framework-studio/"
+  }
+}

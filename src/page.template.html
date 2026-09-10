@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="{{LANG}}" dir="{{DIR}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{TITLE}}</title>
+<meta name="description" content="{{DESC}}">
+<meta property="og:title" content="{{TITLE}}">
+<meta property="og:description" content="{{DESC}}">
+{{ALT}}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;600&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+{{FONT_EXTRA}}
+<link rel="stylesheet" href="assets/css/styles.css">
+<script type="application/ld+json">{{JSONLD}}</script>
+</head>
+<body>
+<a class="skip" href="#main">{{SKIP}}</a>
+{{DEMOBAR}}
+{{TRANSNOTE}}
+
+<header class="nav" id="nav"><div class="shell">
+  <a class="logo" href="#top"><span class="m">{{SHORT}}</span><span class="s">{{CITY}}</span></a>
+  <nav aria-label="Primary"><ul>
+    <li><a href="#services">{{N_SERVICES}}</a></li>
+    <li><a href="#how">{{N_HOW}}</a></li>
+    <li><a href="#about">{{N_ABOUT}}</a></li>
+    <li><a href="#contact">{{N_CONTACT}}</a></li>
+  </ul></nav>
+  <div class="nav-right">
+    <label class="skip" for="langsel">{{N_LANGLABEL}}</label>
+    <select class="langsel" id="langsel" aria-label="{{N_LANGLABEL}}">{{LANGOPTS}}</select>
+    <a class="btn fill" href="#intake">{{N_INTAKE}}</a>
+  </div>
+</div></header>
+
+<header class="hero" id="top">
+  <img src="assets/img/hero.webp" alt="" width="1500" height="1000" fetchpriority="high">
+  <div class="inner"><div class="shell">
+    <p class="eyebrow">{{H_EYEBROW}}</p>
+    <h1>{{H_H1}}</h1>
+    <p>{{H_LEDE}}</p>
+    <div class="cta">
+      <a class="btn terra" href="#intake">{{H_CTA1}}</a>
+      <a class="btn light" href="tel:{{PHONE_RAW}}">{{H_CTA2}} &middot; {{PHONE}}</a>
+    </div>
+  </div></div>
+</header>
+
+<main id="main">
+
+<section class="section"><div class="shell">
+  <div class="head"><h2>{{TRUST_TITLE}}</h2></div>
+  <div class="trust">{{TRUST}}</div>
+</div></section>
+
+<section class="section section-alt" id="services"><div class="shell">
+  <div class="head"><p class="eyebrow">{{S_EYEBROW}}</p><h2>{{S_TITLE}}</h2><p>{{S_LEDE}}</p></div>
+  <div class="svcs">{{SVCS}}</div>
+</div></section>
+
+<section class="section" id="how"><div class="shell">
+  <div class="head"><p class="eyebrow">{{HOW_EYEBROW}}</p><h2>{{HOW_TITLE}}</h2></div>
+  <div class="steps">{{STEPS}}</div>
+</div></section>
+
+<section class="section section-alt" id="about"><div class="shell split">
+  <div class="im rv"><img src="assets/img/community.webp" alt="" loading="lazy" width="1100" height="880"></div>
+  <div class="rv">
+    <p class="eyebrow">{{A_EYEBROW}}</p><h2>{{A_TITLE}}</h2>
+    <p>{{A_P1}}</p><p>{{A_P2}}</p>
+    <p style="font-size:.8rem;color:var(--faint)">{{BARNOTE}}</p>
+  </div>
+</div></section>
+
+<section class="section" id="intake"><div class="narrow">
+  <div class="head"><p class="eyebrow">{{I_EYEBROW}}</p><h2>{{I_TITLE}}</h2><p>{{I_LEDE}}</p></div>
+  <form class="intake rv" id="intakeForm" novalidate>
+    <div><label for="f-name">{{I_NAME}}</label><input id="f-name" name="name" autocomplete="name"></div>
+    <div><label for="f-email">{{I_EMAIL}}</label><input id="f-email" name="email" type="email" autocomplete="email"></div>
+    <div><label for="f-phone">{{I_PHONE}}</label><input id="f-phone" name="phone" type="tel" autocomplete="tel"></div>
+    <div><label for="f-lang">{{I_LANG}}</label><select id="f-lang" name="lang">{{LANGOPTS_FORM}}</select></div>
+    <div><label for="f-type">{{I_TYPE}}</label><select id="f-type" name="type">{{TYPES}}</select></div>
+    <div><label for="f-country">{{I_COUNTRY}}</label><input id="f-country" name="country"></div>
+    <div class="full"><label for="f-urg">{{I_URGENCY}}</label><select id="f-urg" name="urgency">{{URG}}</select></div>
+    <div class="full"><label for="f-msg">{{I_MESSAGE}}</label><textarea id="f-msg" name="message"></textarea></div>
+    <button class="btn terra" type="submit">{{I_SUBMIT}}</button>
+    <p class="fnote">{{I_NOTE}}</p>
+  </form>
+</div></section>
+
+<section class="section indigo" id="contact"><div class="shell">
+  <div class="head"><p class="eyebrow">{{C_EYEBROW}}</p><h2>{{C_TITLE}}</h2></div>
+  <div class="info">
+    <div><h4>{{C_OFFICE}}</h4><p>{{OFF1}}<br>{{OFF2}}</p></div>
+    <div><h4>{{C_REACH}}</h4><p><a href="tel:{{PHONE_RAW}}">{{PHONE}}</a></p><p><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></p></div>
+    <div><h4>{{C_HOURS}}</h4><p>{{C_HOURSVAL}}</p></div>
+  </div>
+</div></section>
+
+</main>
+
+<section class="disclaimer"><div class="shell"><p>{{DISCLAIMER}}</p></div></section>
+{{DEMOFOOT}}
+<footer><div class="shell">
+  <span>&copy; <span id="yr">2026</span> {{FIRM}}</span>
+  <span>{{OFF1}}, {{OFF2}}</span>
+  <span><a href="mailto:{{EMAIL}}">{{EMAIL}}</a></span>
+</div></footer>
+
+<script>
+document.getElementById('yr').textContent=new Date().getFullYear();
+var nav=document.getElementById('nav');
+addEventListener('scroll',function(){nav.classList.toggle('stuck',scrollY>12)},{passive:true});
+if('IntersectionObserver' in window && !matchMedia('(prefers-reduced-motion: reduce)').matches){
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){
+    if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.05});
+  document.querySelectorAll('.rv').forEach(function(el){io.observe(el)});
+}else{document.querySelectorAll('.rv').forEach(function(el){el.classList.add('in')})}
+
+document.getElementById('langsel').addEventListener('change',function(){ location.href=this.value });
+
+document.getElementById('intakeForm').addEventListener('submit',function(e){
+  e.preventDefault();
+  var f=this, n=f.name.value.trim(), m=f.email.value.trim();
+  [f.name,f.email].forEach(function(el){el.classList.remove('ferr')});
+  var old=f.querySelector('.fok'); if(old) old.remove();
+  if(!n){ f.name.classList.add('ferr'); f.name.focus(); alert({{JS_ERRNAME}}); return }
+  if(!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(m)){ f.email.classList.add('ferr'); f.email.focus(); alert({{JS_ERREMAIL}}); return }
+  var ok=document.createElement('p'); ok.className='fok'; ok.textContent={{JS_OK}};
+  f.insertBefore(ok, f.querySelector('button'));
+});
+</script>
+</body>
+</html>
